@@ -32,7 +32,7 @@ const articlesData = [
 
 const LatestArticles = () => {
     return (
-        <section className="latest-articles">
+        <section id="articles" className="latest-articles">
             <h2>Latest Articles</h2>
             <p>Stay up to date the latest trends and research in nutrition and healthy living. </p>
             <div className="articles-grid">

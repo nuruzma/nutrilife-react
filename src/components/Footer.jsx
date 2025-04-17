@@ -51,9 +51,8 @@ const Footer = () => {
 
 				<div className="footer-section contact">
 					<h3>Contact Us</h3>
-					<p>Email: info@nutrilife.com</p>
+					<p>Email: nutrilife.info@gmail.com</p>
 					<p>Phone: (123) 456-7890</p>
-					<p>Address: 123 Health Street, Wellness City, WC 12345</p>
 				</div>
 			</div>
 

@@ -15,7 +15,7 @@ const BMICalculator = () => {
     };
 
     return (
-        <section className="bmi-calculator">
+        <section id="calculators" className="bmi-calculator">
         <h2>BMI Calculator</h2>
         <div className="calculator-form">
         <input

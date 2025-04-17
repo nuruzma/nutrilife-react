@@ -19,9 +19,8 @@ const Header = () => {
                         <span>NutriLife</span>
                     </div>
 
-                    <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Mobile menu toggle">
+                    <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Mobile menu toggle">☰
                         <div className={`hamburger ${mobileMenuOpen ? 'open' : ''}`}>
-                        &#9776;
                         </div>
                     </button>
         
@@ -37,7 +36,7 @@ const Header = () => {
             </nav> 
         
 
-            <div className="hero">
+            <div id="home"  className="hero">
                 <h1>Your Guide to Healthy Living</h1>
                 <p>Discover the perfect balance of nutrition, fitness, and mindfulness</p>
             </div>

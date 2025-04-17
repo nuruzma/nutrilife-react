@@ -26,7 +26,7 @@ const NewsletterSignup = () => {
 
 	return (
 		<>
-		<section className="newsletter">
+		<section id="contact" className="newsletter">
 			<div className="container">
 				<h2>Stay Updated with NutriLife</h2>
 				<p>Join the team and receive weekly updates on nutrition tips, new recipes and exclusive offers.</p>

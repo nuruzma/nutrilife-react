@@ -26,7 +26,7 @@ const dietData = [
 const DietCategories = () => {
     
     return (
-        <section className='diet-categories'>
+        <section id="categories" className='diet-categories'>
                 <h2>Explore Diet Categories</h2>
                 <p> We provide various diet categories to help you achieve your health goals. </p>
                 <div className='category-grid'> {dietData.map((category,index) => (

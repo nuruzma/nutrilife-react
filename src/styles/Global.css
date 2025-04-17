@@ -190,7 +190,11 @@ nav {
 .mobile-menu-toggle {
     display: none;
     cursor: pointer;
-    z-index: 2;
+	color: white;
+	background: none;
+    z-index: 101;
+	font-size: 1.5rem;
+	padding: 0.5rem;
 }
 
 .hamburger {
@@ -382,8 +386,8 @@ nav {
 
     .mobile-menu-toggle {
         display: flex;
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
 		justify-content: center;
 		align-items: center;
 
